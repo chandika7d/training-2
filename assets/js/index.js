@@ -136,19 +136,19 @@ const data = [
             title: "Rata-Rata\nUnit 1",
             value: 1,
             unit: "m3/s",
-            size: 6,
+            size: 55,
           },
           {
             title: "Rata-Rata\nUnit 2",
             value: 2,
             unit: "m3/s",
-            size: 6,
+            size: 56,
           },
           {
             title: "Total Rata-Rata",
             value: 2,
             unit: "m3/s",
-            size: 12,
+            size: 55.5,
           },
         ],
       },
@@ -160,19 +160,19 @@ const data = [
             title: "Rata-Rata\nUnit 1",
             value: 1,
             unit: "m3/s",
-            size: 6,
+            size: 45.46,
           },
           {
             title: "Rata-Rata\nUnit 2",
             value: 2,
             unit: "m3/s",
-            size: 6,
+            size: 51.32,
           },
           {
             title: "Total Rata-Rata",
             value: 2,
             unit: "m3/s",
-            size: 12,
+            size: 48.39,
           },
         ],
       },
@@ -184,19 +184,19 @@ const data = [
             title: "Rata-Rata\nUnit 1",
             value: 1,
             unit: "m3/s",
-            size: 6,
+            size: 58.76,
           },
           {
             title: "Rata-Rata\nUnit 2",
             value: 2,
             unit: "m3/s",
-            size: 6,
+            size: 60.85,
           },
           {
             title: "Total Rata-Rata",
             value: 2,
             unit: "m3/s",
-            size: 12,
+            size: 59.805,
           },
         ],
       },
@@ -206,35 +206,114 @@ const data = [
     title: "Pemeliharaan sungai",
     childrens: [
       {
-        title: "Trashboom 1",
-        size: 6,
+        title: "Plastik",
         childrens: [
-          { title: "Volume", value: 2, size: 6, unit: "m3" },
-          { title: "Pencapaian", value: 2, size: 6, unit: "Percent(%)" },
+          {
+            title: "Trashboom 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 2, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 76, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Trashboom 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 16, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 90, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 1, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 45, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: "0", size: 6, unit: "m3" },
+              { title: "Pencapaian", value: "0", size: 6, unit: "Percent(%)" },
+            ],
+          },
         ],
       },
       {
-        title: "Trashboom 2",
-        size: 6,
+        title: "Eceng Gondok",
         childrens: [
-          { title: "Volume", value: 2, size: 6, unit: "m3" },
-          { title: "Pencapaian", value: 2, size: 6, unit: "Percent(%)" },
+          {
+            title: "Trashboom 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 2, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 34, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Trashboom 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 10, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 50, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 1, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 45, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 5, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 84, size: 6, unit: "Percent(%)" },
+            ],
+          },
         ],
       },
       {
-        title: "Intake Rack 1",
-        size: 6,
+        title: "Lain - Lain",
         childrens: [
-          { title: "Volume", value: 2, size: 6, unit: "m3" },
-          { title: "Pencapaian", value: 2, size: 6, unit: "Percent(%)" },
-        ],
-      },
-      {
-        title: "Intake Rack 2",
-        size: 6,
-        childrens: [
-          { title: "Volume", value: 2, size: 6, unit: "m3" },
-          { title: "Pencapaian", value: 2, size: 6, unit: "Percent(%)" },
+          {
+            title: "Trashboom 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 3, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 56, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Trashboom 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 1, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 3, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 1",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: 2, size: 6, unit: "m3" },
+              { title: "Pencapaian", value: 75, size: 6, unit: "Percent(%)" },
+            ],
+          },
+          {
+            title: "Intake Rack 2",
+            size: 6,
+            childrens: [
+              { title: "Volume", value: "0", size: 6, unit: "m3" },
+              { title: "Pencapaian", value: "0", size: 6, unit: "Percent(%)" },
+            ],
+          },
         ],
       },
     ],
@@ -255,14 +334,18 @@ function generateCard(el, childrens) {
     const card = document.createElement("div");
     card.classList = "card";
     const cardHeader = document.createElement("div");
-    let color = (key + 1)
+    let color = key + 1;
 
-    if(children.title === "Total" || children.title === "Volume" ||children.title === "Total Rata-Rata"){
-        color  = "primary"
+    if (
+      children.title === "Total" ||
+      children.title === "Volume" ||
+      children.title === "Total Rata-Rata"
+    ) {
+      color = "primary";
     }
-    
-    if(children.title === "Pencapaian"){
-        color  = "secondary"
+
+    if (children.title === "Pencapaian") {
+      color = "secondary";
     }
 
     cardHeader.classList = "card-header color-" + color;
